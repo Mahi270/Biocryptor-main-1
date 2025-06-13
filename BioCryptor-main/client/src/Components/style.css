@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+textarea,
+input[type="text"],
+input[type="file"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+video,
+canvas {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+p {
+    word-break: break-word;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #cce7ff;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    /* Add this to distinguish an empty canvas */
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #0056b3;
+        padding: 10px;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}

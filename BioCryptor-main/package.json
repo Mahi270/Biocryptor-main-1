@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "python-shell": "^5.0.0",
+    "react-router-dom": "^7.1.1",
+    "sjcl": "^1.0.8",
+    "web-js": "^0.3.1",
+    "web3": "^4.16.0"
+  }
+}

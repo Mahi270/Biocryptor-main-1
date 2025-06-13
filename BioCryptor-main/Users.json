@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "attributes": ["John Cena", "Chief Of Police", "Police Department"],
+      "faceHash": "0x89d168207fd53614da745f4dafa19ad3ea0af56046c7b8c37d8fd04ed982dd52",
+      "publicKey": "0xdba209ff692540b29bd70f755796fc4507d9093aac75739475e569e8c61f58fcdc8ace451059a7f120d362688e30e6ca37a22a03eedbc1ea97e23f5bc6bd3d00",
+      "privateKey": "0xb0d748b7f204648b949c0cfe00b4d8c5c8636c4454c2a1235114988ccd4a6027"
+    },
+
+    {
+      "attributes": ["Brock", "Senior Investigating Officer", "Criminal Investigation Department"],
+      "faceHash": "0x5464f4d1236204ae8a13e336af8299c43c7690c0382a49abb97c6fd788d7d23d",
+      "publicKey": "0xe92c149abe580e8525953a68cd996add3d218b4748b05b303367310bbb91cb27315507ede4bf9cdf73e87d3838bea16ee56ef36c96d5d90c471722134da473ab",
+      "privateKey": "0xd40eaca755ea296725a4aaa8701014ab9f8be5dba4017235b41e02b1858ec422"
+    },
+
+    {
+      "attributes": ["John", "Chief Forensic Officer", "Forensic Department"],
+      "faceHash": "0x6c6933da95639c20895421d2b407260667a9339655045488d15bc5baa3e9c246",
+      "publicKey": "0xfffdf956271784d5e863ed2fb2e144bb5f957538962cb93d89f5b87711e21b279417a73dd851fec307338507b3dbda9b7ff5f581e62efb69092f005e7b43a1dd",
+      "privateKey": "0x40d85248733244dba58df940830918427fda87856abdb210cb3eac4b02a262ee"
+    },
+
+    {
+      "attributes": ["Richard", "Cyber Crime Officer", "Cyber Crime Coordination Department"],
+      "faceHash": "0x3a84803d7cadf2fc80417e537ed882237d98966a0897be068050b56103eefa59",
+      "publicKey": "0xef9916339f9a0f54b72aef779917d993fdaa94e4d5c503d4afc6a86ad0ae3490cc7880cec6ceead6ed1605581a39f41f294c35df614a8fdc3aab362d0e98b006",
+      "privateKey": "0xc8fd43d48b0c51703603072b0f917dbd9ddb088f426d1b4b722a4ca6f2e7d836"
+    },
+
+    {
+      "attributes": ["Leela", "Public Prosecutor", "Government Official"],
+      "faceHash": "0x9d20b74255bae846b7609e8ea45b20e4594f2464b05c7db577f4d799eef7274c",
+      "publicKey": "0x0dc5ffb554b948202bfc8fb1e3b914ba15c0fff9ede46920b008147a85f25df3d48c67dfddb542282cc7365928d1c8be845e089a74061d2484460097cc0d19e3",
+      "privateKey": "0x617384bdad3094528c2d93dca2a13ef17424fe9c9a5709781b3476233fde8428"
+    },
+    
+    {
+      "attributes": ["Mathew", "Judge", "Court of Law"],
+      "faceHash": "0xfe1d789d1a9293ffe850708d5aa450c3df8cb778a527d6fc194e1c153e58f496",
+      "publicKey": "0x72c1b8b1fe196f7ab0a3ff23139706c304469be2702149b8ce18e93345980ec1c0a3fa6f92456e1a0d738328a1195b067cbbdb16fafbd52a298f060c730bf441",
+      "privateKey": "0xaee8670d86307c35b852ce43040f73a576bf022d1d666ffcbedacee3a663d911"
+    },
+
+    {
+      "ciphertext": "e61a103e08dd253c7607851e999ba4376599208a249b5be630bfd53c183cad", 
+      "symmetric_key": "a61b848342e02f5e93a1201905c13fd1", 
+      "nonce": "c249efbc8d77be31e156dc6142098c04", 
+      "tag": "7bf32e53a23efe7310bd594fccef03d0", 
+      "access_policy": "Chief of Police AND Police Department"
+    }
+  ]
+}
