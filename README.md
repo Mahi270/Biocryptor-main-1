@@ -2,13 +2,13 @@
 ## 🏆 Major Project (Group Project) :  Secure Access Control Digital Evidence Using Biometric-Enhanced Attribute-Based Encryption 🔹
 ## 📚 Research Paper — NetCrypt IEEE
 
-##🔹 Project Description 🔹
+## 🔹 Project Description 🔹
 This project aims to enhance the credibility and traceability of digital evidence by employing biometric authentication and attribute-based encryption alongside blockchain technology.
 The system utilizes AES for data confidentiality, SHA-256 for data integrity, and smart contracts to enable fine-grained, policy-controlled access.
 It guarantees secure, tamper-proof storage and controlled access for digital forensic materials.
 
 
-##🔹 Features 🔹
+## 🔹 Features 🔹
 Biometric Authentication — restricts access to authorized users
 
 Encryption (AES) — guarantees confidentiality of sensitive data
