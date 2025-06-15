@@ -1,6 +1,6 @@
-# Biocryptor-main-1
-## 🏆 Major Project (Group Project) :  Secure Access Control Digital Evidence Using Biometric-Enhanced Attribute-Based Encryption 🔹
-## 📚 Research Paper — NetCrypt IEEE
+# Biocryptor-main-1 :  Secure Access Control Digital Evidence Using Biometric-Enhanced Attribute-Based Encryption
+
+## 📚 Research Paper — NetCrypt IEEE 3rd International Conference 2025
 
 ## 🔹 Project Description 🔹
 This project aims to enhance the credibility and traceability of digital evidence by employing biometric authentication and attribute-based encryption alongside blockchain technology.
